@@ -1,0 +1,76 @@
+i
+
+.vbox {
+    -fx-background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque for better readability */
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+/* Title label styling */
+.title-label {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-padding: 15 0 25 0;
+    -fx-text-fill: #333333; /* Dark gray text color for readability */
+}
+
+/* GridPane styling */
+.grid-pane {
+    -fx-padding: 20;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-background-color: rgba(249, 249, 249, 0.9); /* Slightly more opaque */
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #555555; /* Medium gray text color */
+    -fx-font-weight: bold;
+}
+
+/* TextField styling */
+.text-field {
+    -fx-pref-width: 250px; /* Wider fields for usability */
+    -fx-background-color: #ffffff; /* Solid white background for input fields */
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 12 24;
+    -fx-font-size: 16px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 8, 0, 0, 1); /* Subtle shadow */
+    -fx-transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Button hover effect */
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Button pressed effect */
+.button:pressed {
+    -fx-background-color: #3e8e41;
+}
+
+/* Button focused effect */
+.button:focused {
+    -fx-border-color: #2e7d32;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
